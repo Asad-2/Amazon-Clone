@@ -143,7 +143,7 @@
 .heroimage{
     background-image: url(hero.jpg);
     background-size: cover;
-    height: 350px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -165,6 +165,7 @@
 .heromsg a{
     color: #007185;
 }
+
 
 .shop-section{
     display: flex;
@@ -200,3 +201,75 @@
 
 }
 
+.topsection{
+    display: flex;
+    height: 200px;
+}
+
+
+footer{
+    margin-top: 10px;
+}
+
+.footer-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footer-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul{
+    margin-top: 10px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    /* border: 0.5px solid white; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #131a22;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+     padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
